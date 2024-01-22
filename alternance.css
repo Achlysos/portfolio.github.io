@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+  }
+h1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 3.5em;
+    background-image: url('ligne-enedis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    max-width:100%;
+  }
+  
+h2 {
+    text-align: justify;
+    line-height: 1.5;
+}
+h3 {
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#im {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    max-width:100%;
+}
+.titre-alternance-hist-enedis {
+    margin-top: 40px;
+    color: rgb(32, 32, 197);
+    padding: 0px 20px 0px 20px;
+}
+
+.decalage {
+    padding: 10px 20px 30px 20px;
+}

@@ -1,0 +1,127 @@
+.presentation{
+  background-color: #6e0d7a;
+  width: auto;
+  height: auto;
+}
+
+.presentation-moi {
+  padding-top: 1%;
+  padding-left: 1%;
+  text-align: justify;
+}
+.espace{
+  padding-top: 1%;
+}
+
+.CV {
+  padding-top: 1%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  width: auto;
+  max-width: 100%;
+}
+
+.portfolio-Projets h3{
+  color: #242424;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.portfolio-Projets {
+  background-color: white;
+}
+.portfolio-Projets h2 {
+  margin-bottom: 3%;
+  color: #242424;
+}
+
+
+.portfolio-section-photos h3{
+  color: #242424;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.portfolio-section-photos {
+    background-color: white;
+    margin-top: 3%;
+  }
+  
+  .portfolio-section-photos h2 {
+    margin-bottom: 3%;
+    color: #242424;
+  }
+
+
+
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-paysages img,
+  .grid-portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .grid-paysages img {
+    border-radius: 40%;
+  }
+  
+  .lien-conteneur-photo {
+    position: relative;
+  }
+
+  #im {
+    object-fit: contain;
+  }
+
+  #imageborder {
+    border-radius: 40%;
+  }
+
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover  {
+    display: flex;
+  }
+
+  .lien-conteneur-photo:hover .photo-paysages-hover  {
+    display: flex;
+  }
+  
+  @media screen and (max-width: 996px) {
+    .grid-paysages {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .grid-portraits {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  }
+  
