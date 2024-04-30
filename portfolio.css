@@ -268,6 +268,7 @@
 }
 .portfolio-section-photos {
   width: 100%;
+  position: relative;
 
   /* solid background */
   background: rgb(0,212,255);
